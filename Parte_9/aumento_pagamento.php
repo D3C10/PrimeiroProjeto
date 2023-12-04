@@ -1,4 +1,5 @@
 <?php
+
 $pagamento ='';
 $primeiroaumento = '';
 $segundoaumento ='';
@@ -27,16 +28,8 @@ if(isset($_POST['btn_calcular'])){
         }elseif ($result >= 400){
             echo 'Aumento Excelente!';
         }
-
-
     }
-
-
-
-
-
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
